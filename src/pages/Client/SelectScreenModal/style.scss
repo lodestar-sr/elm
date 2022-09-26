@@ -1,0 +1,43 @@
+.select-screen {
+
+  .tab {
+
+    .tab-header {
+      display: flex;
+
+      .header {
+        border: 1px solid #ccc;
+        border-radius: 5px 5px 0 0;
+        padding: 0.5rem 1rem;
+        margin-right: 1rem;
+        cursor: pointer;
+
+        &.active {
+          color: white;
+          background: #1e88e5;
+          border-color: #1e88e5;
+        }
+      }
+    }
+
+    .tab-content {
+      border: 1px solid #ccc;
+      margin-top: -1px;
+      padding: 0.5rem 0;
+
+      .screen-item {
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+
+        &:hover {
+          color: #1e88e5;
+        }
+
+        &.active {
+          color: white !important;
+          background: #1e88e5;
+        }
+      }
+    }
+  }
+}
